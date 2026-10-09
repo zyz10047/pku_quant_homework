@@ -1,0 +1,53 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
+
+# ===== 数据 / 大文件 =====
+# 行情数据、数据库、压缩包一律不入库
+*.csv
+*.h5
+*.db
+*.sqlite
+*.zip
+*.rar
+*.7z
+*.exe
+
+# ===== 私有 / 环境备份 =====
+env_backup/
+.workbuddy/
+
+# ===== 凭据（安全红线，绝不允许入库）=====
+*.pem
+*.key
+credentials.json
+.env
